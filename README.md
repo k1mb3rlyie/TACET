@@ -55,7 +55,7 @@ python verify_clock_substitution.py
 | ----------------------------- | ----------------------------------------------------------- |
 | Issue: timestamp substitution | [strayge/pylnk#47](https://github.com/strayge/pylnk/issues/47) |
 | Issue: IconIndex sign         | [strayge/pylnk#48](https://github.com/strayge/pylnk/issues/48) |
-| Fix, with tests               | [strayge/pylnk#49](https://github.com/strayge/pylnk/pull/49)   |
+| Fix                           | [strayge/pylnk#49](https://github.com/strayge/pylnk/pull/49)   |
 
 ---
 
