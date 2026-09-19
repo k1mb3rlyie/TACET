@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# API keys
+.env
+*.key
+secrets.*
+
+# Generated parsers — regenerable via run_tacet.py
+pilot/parsers/
+
+# Benchmark trial data — held back until the TACET paper
+# (trials_pylnk3.json IS published; it backs the validation findings)
+pilot/results/tacet_*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
