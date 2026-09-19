@@ -2,18 +2,17 @@
 
 **T**ool-generated **A**rtefact parsers: **C**orrectness **E**valuation under **T**ampering
 
-*Tacet* is the instruction in a musical score telling an instrument not to play —
-literally, "it is silent." A parser that stays silent exactly when it should speak is
-what this measures.
+*Tacet* is the instruction in a musical score telling an instrument not to play,
+literally, "it is silent". This measures a parser that styas silent when it should speak
 
 A test harness for forensic artefact parsers. It generates Windows Shortcut (`.lnk`)
-files with byte-exact known contents, damages them in controlled ways, and grades a
+files with byte-exact known contents, then damages them in controlled ways, and grades a
 parser on whether it **fails loudly** (raises, exits non-zero, signals an error) or
 **fails quietly** (returns a plausible wrong value with no indication anything went
 wrong).
-
-The distinction matters in forensics. A parser that crashes is recoverable — the
-examiner sees an error and investigates. A parser that returns a confident wrong value
+A parser that crashes is recoverable the examiner sees an error and investigates. 
+A parser that returns a confident wrong value puts that value in a report. A parser that crashes 
+is recoverable, the examiner sees an error and investigates. A parser that returns a confident wrong value
 puts that value in a report.
 
 ---
@@ -55,7 +54,7 @@ python verify_clock_substitution.py
 | ----------------------------- | ----------------------------------------------------------- |
 | Issue: timestamp substitution | [strayge/pylnk#47](https://github.com/strayge/pylnk/issues/47) |
 | Issue: IconIndex sign         | [strayge/pylnk#48](https://github.com/strayge/pylnk/issues/48) |
-| Fix                           | [strayge/pylnk#49](https://github.com/strayge/pylnk/pull/49)   |
+| Fix, with tests               | [strayge/pylnk#49](https://github.com/strayge/pylnk/pull/49)   |
 
 ---
 
