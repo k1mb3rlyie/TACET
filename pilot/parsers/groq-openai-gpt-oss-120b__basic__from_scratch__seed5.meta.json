@@ -1,0 +1,11 @@
+{
+  "parser_id": "groq-openai-gpt-oss-120b__basic__from_scratch__seed5",
+  "model": "groq:openai/gpt-oss-120b",
+  "prompt_condition": "basic",
+  "library_condition": "from_scratch",
+  "seed": 5,
+  "generated_at": "2026-09-19T02:37:23+0100",
+  "mock": false,
+  "response_chars": 5487,
+  "code_chars": 5473
+}

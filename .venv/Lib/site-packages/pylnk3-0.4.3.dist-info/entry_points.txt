@@ -1,0 +1,2 @@
+[console_scripts]
+pylnk3 = pylnk3:cli

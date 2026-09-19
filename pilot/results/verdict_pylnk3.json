@@ -1,0 +1,21 @@
+{
+  "n_from_scratch_trials": 0,
+  "silent_plausible": 0,
+  "silent_degenerate": 0,
+  "plausible_rate": 0.0,
+  "wilson_95ci": [
+    0.0,
+    1.0
+  ],
+  "categories_observed": [
+    "sign_confusion",
+    "timestamp"
+  ],
+  "n_categories": 2,
+  "library_attributed_share": 1.0,
+  "rule1_kill_rate_below_threshold": false,
+  "rule1_inconclusive": true,
+  "rule2_kill_too_few_categories": true,
+  "decision": "INCONCLUSIVE - INCREASE N",
+  "n_needed_for_confident_kill": 60
+}
