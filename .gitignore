@@ -1,14 +1,24 @@
+# Python
 __pycache__/
 *.py[cod]
+*.egg-info/
 .pytest_cache/
+
+# Virtual environments
 .venv/
 venv/
 env/
+
+# API keys — belt and braces. Keys should live in environment variables,
+# never in a file, but if one ever lands here it must not be committed.
 .env
 *.key
-pilot/parsers/
-pilot/results/tacet_*
+secrets.*
+
+
+# Editor / OS
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
+*.swp

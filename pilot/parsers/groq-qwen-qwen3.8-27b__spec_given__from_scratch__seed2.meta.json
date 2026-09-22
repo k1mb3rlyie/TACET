@@ -1,0 +1,11 @@
+{
+  "parser_id": "groq-qwen-qwen3.8-27b__spec_given__from_scratch__seed2",
+  "model": "groq:qwen/qwen3.8-27b",
+  "prompt_condition": "spec_given",
+  "library_condition": "from_scratch",
+  "seed": 2,
+  "generated_at": "2026-09-18T14:06:34+0100",
+  "mock": false,
+  "response_chars": 11544,
+  "code_chars": 11530
+}

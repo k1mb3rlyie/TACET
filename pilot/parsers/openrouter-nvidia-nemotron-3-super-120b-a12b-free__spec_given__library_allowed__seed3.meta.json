@@ -1,0 +1,11 @@
+{
+  "parser_id": "openrouter-nvidia-nemotron-3-super-120b-a12b-free__spec_given__library_allowed__seed3",
+  "model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+  "prompt_condition": "spec_given",
+  "library_condition": "library_allowed",
+  "seed": 3,
+  "generated_at": "2026-09-19T05:21:06+0100",
+  "mock": false,
+  "response_chars": 4576,
+  "code_chars": 4562
+}
