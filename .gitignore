@@ -6,7 +6,6 @@ venv/
 env/
 .env
 *.key
-pilot/results/tacet_*
 .vscode/
 .idea/
 .DS_Store
