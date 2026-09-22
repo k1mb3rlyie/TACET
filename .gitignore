@@ -13,10 +13,8 @@ env/
 # never in a file, but if one ever lands here it must not be committed.
 .env
 *.key
-secrets.*
-
-
-# Editor / OS
+pilot/parsers/
+pilot/results/tacet_*
 .vscode/
 .idea/
 .DS_Store
